@@ -10,6 +10,6 @@ attr_accessor :backers
   
   def add_backer(backer)
     @backers << backer
-    name.backed_projects << self
+    backer.backed_projects << self
   end
 end
